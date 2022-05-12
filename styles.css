@@ -6,7 +6,7 @@
 body{
     margin: auto;
     text-align: center;
-    background-color: rgb(81, 38, 102);
+    background: url(background.jpg);
     width: 90%;
     color: white;
 }
@@ -50,30 +50,21 @@ form{
     text-align: center;
 }
 
-.container,.headerrow{
+.container,.headerrow, article{
     border: 2px solid white;
 }
 
-a{
-    color: white;
-}
-a:visited{
-    color: rgb(255, 115, 255);
-}
-a:visited:hover{
-    color:rgb(178, 49, 178);
-    background: rgb(54, 22, 69)
-}
-a:hover{
-    color: rgb(200, 200, 200);
-    background-color: rgb(54, 22, 69);
-}
-
-.col
+.col, article, footer
 {
     padding: 5px;
 }
 .row
 {
     background-color: black;
+}
+
+article
+{
+    color: rgb(81, 38, 102); 
+    background-color: rgb(200, 200, 200);
 }
